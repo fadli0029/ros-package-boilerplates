@@ -51,4 +51,4 @@ class PackageName
 
 };
 
-} // namespace detections_fusion
+} // namespace package_name

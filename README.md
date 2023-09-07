@@ -8,5 +8,8 @@ Scripts to generate boilerplates ros packages for multiple common purposes in ro
 - [ ] Minimal ROS package with rviz visual tools
 - [ ] Minimal ROS package with common private member variables (like latest_odom_, frame_id_, etc.)
 - [ ] Minimal ROS package with libraries like Eigen, Boost, pcl, your custom header-only library etc.
+- [ ] Minimal launch file for a given configuration of a minimal ROS packages
+- [ ] Minimal launch file for a group of a minimal ROS packages (or more accurately ROS components)
+- [ ] Minimal launch file for a group of a minimal ROS packages (or more accurately ROS nodes)
 
 Note: For every minimal package, have 2 subscribers, one with rclcpp::SensorDataQoS{}, and the other is QoS set as best coz it might not be sensor you know

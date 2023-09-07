@@ -8,7 +8,6 @@ endif()
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_STANDARD 17)
 
-# TODO: Remove unnecessary packages (currently most of them are copy pasteed from row_follower)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
@@ -25,7 +24,6 @@ add_library(
 )
 target_compile_definitions(package_name
   PRIVATE "COMPOSITION_BUILDING_DLL")
-# target_link_libraries(package_name)
 ament_target_dependencies(
   package_name
   rclcpp

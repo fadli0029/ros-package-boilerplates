@@ -10,6 +10,7 @@ Scripts to generate boilerplates ros packages for multiple common purposes in ro
 - [ ] Minimal ROS package with libraries like Eigen, Boost, pcl, your custom header-only library etc.
 - [ ] Minimal launch file for a given configuration of a minimal ROS packages
 - [ ] Minimal launch file for a group of a minimal ROS packages (or more accurately ROS components)
-- [ ] Minimal launch file for a group of a minimal ROS packages (or more accurately ROS nodes)
+- [ ] Minimal launch file for a group of a minimal ROS packages (or more accurately ROS nodes)A
+- [ ] If I already have a ros package, but I want to add a feature, like parameters, write a script to add that feature to the package.
 
 Note: For every minimal package, have 2 subscribers, one with rclcpp::SensorDataQoS{}, and the other is QoS set as best coz it might not be sensor you know
